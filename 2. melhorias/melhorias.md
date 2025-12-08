@@ -1,0 +1,9 @@
+# Melhorias no [protótipo](../0.%20artefatos/1.%20prototipo.png)
+
+| Funcionalidade | Severidade | Melhoria | Ação | Resultado obtido | Resultado esperado | Status | 
+|----------------|------------|----------|------|------------------|--------------------|--------|
+| Atividades | [BX] Baixa | Para os casos de quantidade de atividade 0 ou 1, alguns status poderiam também estar no singular | Acessar a seção "Atividades" | Os status das atividades "Previstas" e "Concluídas" estão apenas no plural | Para os casos de quantidade de atividade 0 ou 1, os status "Previstas" e "Concluídas" poderiam também estar no singular [Ex.: "Prevista(s)" e "Concluída(s)"]  | Em aberto | 
+| Títulos financeiros | [BX] Baixa | Para os casos de quantidade de título financeiro 0 ou 1, alguns status poderiam também estar no singular | Acessar a seção "Títulos financeiros" | Os status dos títulos financeiros "Vencidos" e "Pagos" estão apenas no plural | Para os casos de quantidade de título financeiro 0 ou 1, os status "Vencidos" e "Pagos" poderiam também estar no singular [Ex.: "Vencido(s)" e "Pago(s)"]  | Em aberto |
+| Oportunidades | [BX] Baixa | Os status poderiam estar padronizados no singular | Acessar a seção "Oportunidades" | Os status das oportunidades "Ganhas", "Abertas" e "Descartadas" não estão padronizados no singular | Para os casos de quantidade de oportunidade 0, 1 ou mais, os status "Ganhas", "Perdida", "Abertas" e "Descartadas" poderiam estar padronizados no singular [Ex.: "Ganha(s)", "Perdida(s)", "Aberta(s)" e "Descartada(s)"] | Em aberto |  
+
+[teste](../0.%20artefatos/2.%20reports-ruby/)

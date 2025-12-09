@@ -1,0 +1,16 @@
+default: -p pretty --publish-quiet -p html -p prod -p chrome
+
+pretty: --format pretty
+prod: ENVIRONMENT=prod
+hml: ENVIRONMENT=hml
+ff: -p pretty --publish-quiet -p html -p prod -p firefox
+ff_hml: -p pretty --publish-quiet -p html -p hml -p firefox
+ci: -p pretty --publish-quiet -p html -p prod -p chrome_headless 
+ci_ff: -p pretty --publish-quiet -p html -p prod -p firefox_headless
+
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
+
+html: --format html --out="../../0. artefatos/2. reports-ruby/html/ruby-gherkin-selenium-webdriver-report-html.html"

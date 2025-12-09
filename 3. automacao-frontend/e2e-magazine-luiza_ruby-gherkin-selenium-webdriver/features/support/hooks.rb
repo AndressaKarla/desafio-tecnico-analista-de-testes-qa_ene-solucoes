@@ -1,6 +1,6 @@
 Before do |scenario|
     Capybara.current_session.driver.browser.manage.delete_all_cookies
-    Capybara.page.driver.browser.manage.window.resize_to(1280, 720)
+    Capybara.page.driver.browser.manage.window.resize_to(1400, 1050)
 end
 
 After do |scenario|
